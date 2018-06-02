@@ -22,6 +22,7 @@ body {
 .main-content {
     position: relative;
     max-width: 1200px;
+    min-width: 898px;
     margin: 0 auto;
     overflow: auto;
 }
@@ -39,14 +40,18 @@ body {
 }
 
 .navbar {
-    font-family: catamaran, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
     padding: 5px;
+    list-style-type: none;
+    font-family: catamaran, Helvetica, Arial, sans-serif;
+    overflow: hidden;
 }
 
 .nav-left {
     position: relative;
+    float: left;
     left: 18%;
-    width: calc(50% - 10px);
+    padding: 5px;
     color: #fdcc52;
     font-size: 95%;
     letter-spacing: 1px;
@@ -55,8 +60,9 @@ body {
 
 .navbar-right {
     position: relative;
-    left: 54%;
-    padding: 8px;
+    float: right;
+    right: 18%;
+    padding: 5px;
     color: white;
     font-size: 67%;
     letter-spacing: 3px;
@@ -65,11 +71,12 @@ body {
 
 .section1-text {
     position: relative;
+    display: block;
     left: 43%;
     top: 100px;
-    width: 280px;
+    width: 268px;
     font-family: catamaran, Helvetica, Arial, sans-serif;
-    font-size: 180%;
+    font-size: 28px;
     color: white;
     line-height: 130%;
 }
@@ -78,8 +85,10 @@ body {
     float: right;
     right: 43%;
     position: relative;
-    top: 50px;
-    width: 300px;
+    top: 0px;
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 18%;
 }
 
 .section1-button {
