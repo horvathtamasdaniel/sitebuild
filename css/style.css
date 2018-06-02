@@ -1,9 +1,16 @@
-body {
-    margin: 0;
+@font-face {
+    font-family: catamaran;
+    src: url(/fonts/Catamaran-Thin.ttf);
 }
 
-.linear-gradient-background {
-    background: rgb(194, 16, 164);
+body {
+    margin: 0;
+    background: black;
+}
+
+.main-content {
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .container {
@@ -40,6 +47,47 @@ body {
 
 .pic-background {
     background-image: url('../img/bg-cta.jpg')
+}
+
+.section1 {
+    background-image: url(/img/bg-pattern.png), linear-gradient(to right, #DA2431, #7A4397);
+    background-repeat: repeat;
+}
+
+.section1-text {
+    font-family: catamaran;
+    font-size: 175%;
+    color: white;
+    max-width: 55%;
+    margin-top: 20%;
+    margin-left: 45%;
+}
+
+.section1-button {
+    margin-left: 45%;
+    margin-bottom: 20%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    font-size: 10px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.section1-button:hover {
+    border: 1px solid #fdcc52;
+    background-color: #fdcc52;
+}
+
+.section1-img {
+    float: right;
+    max-width: 50%;
+    margin-top: 10%;
+    margin-right: 45%;
+    margin-bottom: 15%;
 }
 
 img {
