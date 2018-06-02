@@ -1,0 +1,49 @@
+/* ez egy szar */
+
+body {
+    margin: 0;
+}
+
+.linear-gradient-background {
+    background: rgb(194, 16, 164);
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.col-50 {
+    float: left;
+    padding: 15px;
+    width: calc(50% - 30px);
+}
+
+.col-100 {
+    text-align: center;
+    float: none;
+    padding: 15px;
+    width: calc(100% - 30px);
+}
+
+.col-33 {
+    float: left;
+    padding: 15px;
+    width: calc(33.33% - 30px);
+}
+
+.yellow-background {
+    background: rgb(255, 238, 0)
+}
+
+.white-background {}
+
+.pic-background {
+    background-image: url('../img/bg-cta.jpg')
+}
+
+img {
+    max-width: 100%;
+}
