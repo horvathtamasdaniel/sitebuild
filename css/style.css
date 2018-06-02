@@ -3,21 +3,33 @@
     src: url(/fonts/Catamaran-Thin.ttf);
 }
 
+@font-face {
+    font-family: lato;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: muli;
+    src: url(/fonts/Muli-Light.ttf);
+}
+
 body {
     margin: 0;
+    overflow: auto;
     background: black;
 }
 
 .main-content {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.container {
     position: relative;
     max-width: 1200px;
-    overflow: auto;
     margin: 0 auto;
+    overflow: auto;
+}
+
+.top-content {
+    background-image: url(/img/bg-pattern.png), linear-gradient(to right, #DA2431, #7A4397);
+    background-repeat: repeat;
+    overflow: hidden;
 }
 
 .col-50 {
@@ -26,53 +38,62 @@ body {
     width: calc(50% - 30px);
 }
 
-.col-100 {
-    text-align: center;
-    float: none;
-    padding: 15px;
-    width: calc(100% - 30px);
+.navbar {
+    font-family: catamaran, Helvetica, Arial, sans-serif;
+    padding: 5px;
 }
 
-.col-33 {
-    float: left;
-    padding: 15px;
-    width: calc(33.33% - 30px);
+.nav-left {
+    position: relative;
+    left: 18%;
+    width: calc(50% - 10px);
+    color: #fdcc52;
+    font-size: 95%;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
-.yellow-background {
-    background: rgb(255, 238, 0)
-}
-
-.white-background {}
-
-.pic-background {
-    background-image: url('../img/bg-cta.jpg')
-}
-
-.section1 {
-    background-image: url(/img/bg-pattern.png), linear-gradient(to right, #DA2431, #7A4397);
-    background-repeat: repeat;
+.navbar-right {
+    position: relative;
+    left: 54%;
+    padding: 8px;
+    color: white;
+    font-size: 67%;
+    letter-spacing: 3px;
+    text-decoration: none;
 }
 
 .section1-text {
-    font-family: catamaran;
-    font-size: 175%;
+    position: relative;
+    left: 43%;
+    top: 100px;
+    width: 280px;
+    font-family: catamaran, Helvetica, Arial, sans-serif;
+    font-size: 180%;
     color: white;
-    max-width: 55%;
-    margin-top: 20%;
-    margin-left: 45%;
+    line-height: 130%;
+}
+
+.section1-img {
+    float: right;
+    right: 43%;
+    position: relative;
+    top: 50px;
+    width: 300px;
 }
 
 .section1-button {
-    margin-left: 45%;
-    margin-bottom: 20%;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 20px;
-    color: white;
+    position: relative;
+    left: 43%;
+    top: 110px;
     padding: 14px 40px;
+    font-family: lato, Helvetica, Arial, sans-serif;
+    font-size: 62%;
     text-align: center;
-    font-size: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
     transition-duration: 0.3s;
     cursor: pointer;
 }
@@ -80,16 +101,4 @@ body {
 .section1-button:hover {
     border: 1px solid #fdcc52;
     background-color: #fdcc52;
-}
-
-.section1-img {
-    float: right;
-    max-width: 50%;
-    margin-top: 10%;
-    margin-right: 45%;
-    margin-bottom: 15%;
-}
-
-img {
-    max-width: 100%;
 }
