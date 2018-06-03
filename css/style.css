@@ -35,15 +35,66 @@ body {
 }
 
 .yellow-background {
-    background: rgb(255, 238, 0)
+    background: rgb(255, 238, 0);
+    height: 250px;
+    opacity: 0.7;
+}
+
+.yellow-background:hover {
+    opacity: 1;
 }
 
 .white-background {}
 
 .pic-background {
-    background-image: url('../img/bg-cta.jpg')
+    height: 500px;
+    background-image: url('../img/bg-cta.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 img {
     max-width: 100%;
+}
+
+.sziv {
+    position: relative;
+}
+
+.sziv:before {
+    content: "\f004";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: red;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google-plus {
+    background: #dd4b39;
+    color: white;
+}
+
+.szivecske {
+    font-size: 50px;
 }
