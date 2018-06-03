@@ -37,7 +37,7 @@ body {
 .yellow-background {
     background: rgb(255, 238, 0);
     height: 250px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .yellow-background:hover {
@@ -97,4 +97,27 @@ img {
 
 .szivecske {
     font-size: 50px;
+}
+
+.stopwaiting {
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.letbutton {
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 30px 40px;
+}
+
+.letbutton:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+    transition-duration: 300ms;
 }
