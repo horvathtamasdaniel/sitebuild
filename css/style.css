@@ -33,8 +33,8 @@ body {
     width: calc(33.33% - 30px);
 }
 
-.yellow-background {
-    background: rgb(255, 238, 0)
+.yelow-background {
+    background: rgb(253, 202, 75)
 }
 
 .white-background {}
@@ -46,43 +46,3 @@ body {
 img {
     max-width: 100%;
 }
-
-/* Navigációs bar design-ja */
-
-nav {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-ul {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 0;
-    overflow: hidden;
-}
-
-.left-hand {
-    float: left;
-}
-
-.right-hand {
-    float: right;
-}
-
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-/* Navigációs desing vége */
