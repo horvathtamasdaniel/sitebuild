@@ -47,10 +47,10 @@ body {
 .white-background {}
 
 .pic-background {
-    height: 500px;
+    height: 600px;
     background-image: url('../img/bg-cta.jpg');
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: cover;
 }
 
 img {
