@@ -1,0 +1,126 @@
+@font-face {
+    font-family: catamaran;
+    src: url(../fonts/Catamaran-Thin.ttf);
+}
+
+@font-face {
+    font-family: catamaranlight;
+    src: url(../fonts/Catamaran-Light.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: muli;
+    src: url(../fonts/Muli-Light.ttf);
+}
+
+@font-face {
+    font-family: muliRegular;
+    src: url(../fonts/Muli-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.linear-gradient-background {
+    background: rgb(194, 16, 164);
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.col-50 {
+    float: left;
+    padding: 15px;
+    width: calc(50% - 30px);
+}
+
+.col-100 {
+    text-align: center;
+    float: none;
+    padding: 15px;
+    width: calc(100% - 30px);
+}
+
+.col-33 {
+    float: left;
+    padding: 15px;
+    width: calc(33.33% - 30px);
+}
+
+.yellow-background {
+    background: rgb(255, 238, 0)
+}
+
+.white-background {
+    margin-left: 18%;
+    margin-right: 15%;
+}
+
+.pic-background {
+    background-image: url('../img/bg-cta.jpg')
+}
+
+img {
+    max-width: 100%;
+}
+
+.white-background .sb1 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.white-background .sb2 {
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0%;
+    color: silver;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.white-background .sb3 {
+    font-size: 55px;
+    color: purple;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.white-background .sb4 {
+    font-size: 55px;
+    color: purple;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.white-background .sb5 {
+    color: grey;
+    text-align: center;
+}
+
+.white-background h3 {
+    font-family: catamaran;
+    font-size: 24px;
+    text-align: center;
+    color: grey;
+    margin-top: 0%;
+}
