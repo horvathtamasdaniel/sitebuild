@@ -1,0 +1,11 @@
+.sziv {
+    position: relative;
+}
+
+.sziv:before {
+    content: "\f004";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
