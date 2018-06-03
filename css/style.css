@@ -1,3 +1,28 @@
+@font-face {
+    font-family: catamaran;
+    src: url(../fonts/Catamaran-Thin.ttf);
+}
+
+@font-face {
+    font-family: catamaranlight;
+    src: url(../fonts/Catamaran-Light.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: muli;
+    src: url(../fonts/Muli-Light.ttf);
+}
+
+@font-face {
+    font-family: muliRegular;
+    src: url(../fonts/Muli-Regular.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -34,7 +59,38 @@ body {
 }
 
 .yelow-background {
-    background: rgb(253, 202, 75)
+    background: rgb(253, 202, 75);
+}
+
+.yelow {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.yelow-background .container .col-100 p:first-child {
+    font-family: catamaranlight;
+    font-size: 65px;
+    color: rgb(35, 36, 41);
+    margin-top: 20%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.yelow-background p {
+    font-family: muliRegular;
+    color: rgb(35, 36, 41);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 75px;
+}
+
+.yelow-background img {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20%;
 }
 
 .white-background {}
@@ -45,4 +101,24 @@ body {
 
 img {
     max-width: 100%;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    font-family: muli;
+    font-size: 12px;
+}
+
+footer p {
+    color: rgb(101, 101, 101);
+}
+
+footer a {
+    color: rgb(101, 101, 101);
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #fdcc52;
 }
