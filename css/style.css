@@ -329,3 +329,15 @@ footer a {
 footer a:hover {
     color: #fdcc52;
 }
+
+.fa-facebook:hover {
+    opacity: 0.8;
+}
+
+.fa-twitter:hover {
+    opacity: 0.8;
+}
+
+.fa-google-plus:hover {
+    opacity: 0.8;
+}
